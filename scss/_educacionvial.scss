@@ -1,0 +1,350 @@
+.contenedorvial{
+    font-size: 18px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: none;
+    .titulov{
+        position: relative;
+        left: -1500px;
+        color: $rojo;
+        width: 30%;
+        height: 120px;
+        text-align: center;
+        float: left;
+        border-right: 1px solid $rojo;
+        transition: left 1s ease;
+        transition-delay: 1.4s;
+        z-index: -1;
+        background: #fff;
+        p{
+            display: block;
+            padding: 0;
+            font-style: italic;
+            color: $rojo;
+            font-size: 1.8em;
+            margin: 1em 0;
+            font-weight: 700;
+        }
+    }
+    .texto{
+        position: relative;
+        background: #fff;
+        left: -1500px;
+        width: 30%;
+        height: 120px;
+        float: left;
+        padding: 20px;
+        padding-top: 10px;
+        font-style: italic;
+        border-right: 1px solid $rojo;
+        transition: left 1s ease;
+        transition-delay: 1.6s;
+        z-index: -2;
+        background: #fff;
+        p{
+            margin-left: 10px;
+            line-height: 1.3em;
+        }
+    }
+    .texto1{
+        position: relative;
+        left: -1500px;
+        width: 30%;
+        height: 120px;
+        float: left;
+        padding: 20px;
+        padding-top: 10px;
+        font-style: italic;
+        transition: left 1s ease;
+        transition-delay: 1.8s;
+        z-index: -3;
+        background: #fff;
+        p{
+            margin-left: 10px;
+            line-height: 1.3em;
+        }
+    }
+    .educacion{
+        .title{
+            margin-top: 30px;
+            color: $rojo;
+            width: 50%;
+            height: 120px;
+            text-align: center;
+            float: left;
+            border-right: 1px solid $rojo;
+            cursor: pointer;
+            position: relative;
+            left: -1500px;
+            transition: left 1s ease;
+            transition-delay: 2s;
+            p{
+                display: block;
+                padding: 0;
+                font-style: italic;
+                color: $rojo;
+                font-size: 1.7em;
+                margin: 1em 0;
+                font-weight: 700;
+            }
+        }
+        .title1{
+            margin-top: 30px;
+            color: $rojo;
+            width: 50%;
+            height: 120px;
+            text-align: center;
+            float: left;
+            cursor: pointer;
+            position: relative;
+            left: -1500px;
+            transition: left 1s ease;
+            transition-delay: 2.2s;
+            p{
+                display: block;
+                padding: 0;
+                font-style: italic;
+                color: $rojo;
+                font-size: 1.7em;
+                margin: 1em 0;
+                font-weight: 700;
+            }
+        }
+        .title2{
+            display: inline-flex;
+            width: 100%;
+            height: 120px;
+            font-style: italic;
+            margin-top: 30px;
+            text-align: center;
+            vertical-align: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            transition: left 1s ease;
+            // left: -1500px;
+            .select{
+                color: $rojo;
+                font-weight: 700;
+            }
+            p{
+                border-right: 1px solid $rojo;
+                width: 33.33%;
+                height: 100%;
+                font-size: 1.2em;
+                padding-top: 49.2px;
+                &:nth-child(3){
+                    border: none;
+                }
+                &:hover{
+                    font-weight: 700;
+                    color: $rojo;
+                }
+            }
+        }
+        .sen{
+            position: relative;
+            display: flex;
+            width: 300%;
+            height: 100%;
+            left: -100%;
+            transition: left 3s ease;
+            .prev{
+                width: 100%;
+                // display: none;
+                max-width: 1366px;
+                display: flex;
+                .todas{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    .preventivas{
+                        width: 150px;
+                        height: 200px;
+                        display: inline-flex;
+                        text-align: center;
+                        margin-top: 10px;
+                        font-style: italic;
+                        padding: 10px;
+                      .flip{
+                          height: 200px;
+                          img{
+                              width: 100%;
+                          }
+                          .flip15{
+                              height: auto;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              align-content: center;
+                            
+                          }
+                      }
+                    }
+                }
+            }
+            .regl{
+                width: 100%;
+                max-width: 1366px;
+                .todas{
+                    width: 100%;
+                    justify-content: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    .reglamentarias{
+                        width: 150px;
+                        height: 200px;
+                        display: inline-flex;
+                        text-align: center;
+                        margin-top: 10px;
+                        font-style: italic;
+                        padding: 10px;
+                      .flip{
+                          height: 200px;
+                          img{
+                              width: 100%;
+                          }
+                          .flip15{
+                              height: auto;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              align-content: center;
+                            
+                          }
+                      }
+                    }
+                }
+            }
+            .info_sen{
+                width: 100%;
+                max-width: 1366px;
+                .todas{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    .informativas{
+                        width: 150px;
+                        // height: 200px;
+                        display: inline-flex;
+                        text-align: center;
+                        margin-top: 10px;
+                        font-style: italic;
+                        padding: 10px;
+                      .flip{
+                        //   height: 200px;
+                          img{
+                              width: 100%;
+                          }
+                          .flip15{
+                              height: auto;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              align-content: center;
+                            
+                          }
+                      }
+                    }
+                }
+            }
+        }
+        .ley{
+            width: 95%;
+            position: relative;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-style: italic;
+            line-height: 1.3em;
+            opacity: 1;
+            transition: opacity 2s ease;
+            .tituloley{
+                display: none;
+            }
+            .textoley{
+                margin-top: 30px;
+                .tituloleynumero{
+                    color: $rojo;
+                    font-size: 1.4em;
+                }
+                .justificado{
+                    text-align: justify;
+                    margin-bottom: 10px;
+                    b{
+                        color: $rojo;
+                    }
+                }
+                .centrado{
+                    margin-bottom: 10px;
+                    color: $rojo;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .contenedorvial{
+        .titulov{
+            width: 100%;
+            border: none;
+        }
+        .texto, .texto1{
+            width: 100%;
+            border: none;
+
+        }
+        .educacion{
+            .title, .title1{
+                margin-top: 20px;
+                margin-bottom: 30px;
+                p{
+                    font-size: 1.5em;
+                }
+            }
+            .title2{
+                p{
+                    font-size: 1em;
+                }
+                #preventiva, #informativa{
+                    width: 30%;
+                }
+                #reglamentaria{
+                    width: 42%;
+                }
+            }
+           
+        }
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .contenedorvial{
+        .titulov{
+            width: 100%;
+            border: none;
+        }
+        .texto, .texto1{
+            width: 100%;
+            border: none;
+
+        }
+        .educacion{
+            .title, .title1{
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+        }
+        
+    }
+}

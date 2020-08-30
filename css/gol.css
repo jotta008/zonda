@@ -1,0 +1,35 @@
+.gol1 {
+  display: none;
+  color: red;
+}
+
+.add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-animation: mymove 1s 1;
+  /* Safari 4.0 - 8.0 */
+  animation: mymove 1s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes mymove {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0px;
+  }
+}
+/*# sourceMappingURL=gol.css.map */
